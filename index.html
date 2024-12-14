@@ -15,7 +15,7 @@
         <label class="task-form__label" for="new-task">Add Item</label>
         <div class="task-form__row">
           <input class="task-form__input" id="new-task" type="text">
-          <button class="button task-form__button">Add</button>
+          <button class="task-form__button">Add</button>
         </div>
       </section>
       <section class="tasks tasks_todo">
@@ -27,7 +27,7 @@
             <input type="text" class="tasks__input">
             <button class="tasks__button tasks__button_edit">Edit</button> 
             <button class="tasks__button tasks__button_delete">
-              <img class="tasks__icon" src="./remove.svg" alt="Remove">
+              <img class="tasks__del-icon" src="./remove.svg" alt="Remove">
             </button>
           </li>
           <li class="tasks__item tasks__item_edit-mode">
@@ -36,21 +36,21 @@
             <input type="text" value="Go Shopping" class="tasks__input">
             <button class="tasks__button tasks__button_edit">Save</button>
             <button class="tasks__button tasks__button_delete">
-              <img class="tasks__icon" src="./remove.svg" alt="Remove">
+              <img class="tasks__del-icon" src="./remove.svg" alt="Remove">
             </button>
           </li>
         </ul>
       </section>
       <section class="tasks tasks_completed">
         <h3 class="tasks__title">Completed</h3>
-        <ul id="completed-tasks" class="tasks__list">
+        <ul class="tasks__list" id="completed-tasks">
           <li class="tasks__item tasks__item_completed">
             <input class="tasks__checkbox" type="checkbox" checked>
             <label class="tasks__label">See the Doctor</label>
             <input type="text" class="tasks__input">
             <button class="tasks__button tasks__button_edit">Edit</button>
             <button class="tasks__button tasks__button_delete">
-              <img class="tasks__icon" src="./remove.svg" alt="Remove">
+              <img class="tasks__del-icon" src="./remove.svg" alt="Remove">
             </button>
           </li>
         </ul>
